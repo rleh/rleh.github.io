@@ -12,6 +12,7 @@ $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
 
 $spacing-unit:     30px;
+$spacing-unit-half: 15px;
 
 $text-color:       #111;
 $background-color: #fdfdfd;
@@ -27,7 +28,14 @@ $content-width:    800px;
 $on-palm:          600px;
 $on-laptop:        800px;
 
+$excerpt-font-color: #424242;
+$excerpt-link-color: darken($brand-color, 40%);
 
+$white:            #ffffff;
+$backgroud-dark:   $grey-color-dark;
+$titel-background-color: #000000;
+
+$border-radius-wrapper: 7px;
 
 // Using media queries with like this:
 // @include media-query($on-palm) {

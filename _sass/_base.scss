@@ -81,6 +81,7 @@ li {
  */
 h1, h2, h3, h4, h5, h6 {
     font-weight: 300;
+	color: $brand-color;
 }
 
 
@@ -150,6 +151,31 @@ pre {
 
 
 
+body {
+    background-color: $grey-color-dark;
+}
+.site-header .wrapper {
+    background-color: $titel-background-color;
+    border: 1px solid $titel-background-color;
+    border-top-right-radius: $border-radius-wrapper;
+    border-top-left-radius: $border-radius-wrapper;
+}
+.wrapper {
+    background-color: $white;
+    box-shadow: 10px 5px 25px #000;
+}
+.page-content .wrapper {
+    padding-top: $spacing-unit;
+    padding-bottom: $spacing-unit;
+}
+.site-footer .wrapper {
+    padding-top: $spacing-unit;
+    padding-bottom: $spacing-unit;
+    border: 1px solid $white;
+    border-bottom-right-radius: $border-radius-wrapper;
+    border-bottom-left-radius: $border-radius-wrapper;
+}
+
 /**
  * Wrapper
  */
@@ -168,6 +194,15 @@ pre {
         padding-right: $spacing-unit / 2;
         padding-left: $spacing-unit / 2;
     }
+}
+
+
+/**
+ * Excerpt
+ */
+.excerpt p {
+    color: $excerpt-font-color;
+    margin-bottom: 5px;
 }
 
 
