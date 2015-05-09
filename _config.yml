@@ -2,12 +2,11 @@
 title: Raphael Lehmann
 email: raphael@rleh.de
 
-#Raphael Lehmanns website and blog. Some inforation about myself, my studies and projects
 description: > # this means to ignore newlines until "baseurl:"
   Webseite von Raphael Lehmann. Infos über mich, mein Studium und Projekte.
 baseurl: ""
-url: "https://www.rleh.de"
-#twitter_username: jekyllrb
+url: "https://rleh.github.io"
+
 github_username:  rleh
 
 # Build settings
