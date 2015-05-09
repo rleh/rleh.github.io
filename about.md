@@ -1,11 +1,14 @@
 ---
 layout: page
-title: About
+title: Über mich
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+![Raphael Lehmann (Portrait)]({{ site.baseurl }}/assets/images/raphael.jpg)
 
-You can find the source code for the Jekyll new theme at: [github.com/jglovier/jekyll-new](https://github.com/jglovier/jekyll-new)
+Ich bin Raphael Lehmann, Student der Elektrotechnik, Informationstechnik und Technischen Informatik in Aachen.
 
-You can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+Neben meinem Studium bin ich an ein paar Softwareprojekten beteiligt, betreue die IT-Infrastruktur meiner alten Schule und ein paar Webseiten.
+
+Ansonsten bin ich leidenschaftlicher Radfahrer, sowohl im Alltag als auch (lieber) auf größeren Touren in meiner Freizeit.
+
