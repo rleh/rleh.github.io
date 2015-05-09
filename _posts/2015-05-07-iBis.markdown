@@ -1,0 +1,17 @@
+---
+layout: post
+title:  "iBis"
+date:   2015-05-08 20:00:00
+categories: ibis
+---
+
+__iBis__ (intelligent bike information system) ist ein Fahrradnavi.
+iBis entstand im Rahmen eines _Jugend Forscht_ Projektes von Leonard Rapp und mir am Theodor-Fliedner-Gymnasium.
+Beim Jugend Forscht Regionalwettbewerb Düsseldorf haben wir den 1. Preis in der Kategorie Mathematik/Informatik gewonnen und uns somit für den Landeswettbewerb Nordrheinwestphalen qualifiziert.
+
+Mit iBis haben wir ein Navigationssystem für Fahrradfahrer auf Basis des _OpenStreetMap_ Datenmaterials entwickelt, das in Form ein Android App genutzt werden kann. 
+iBis navigiert den Nutzer bevorzugt über fahrradfreundiche Straßen und Wege zu seinem Ziel und berechnet anhand die vorraussichtliche Ankunftszeit und zeigt die dafür nötige Geschwindigkeit an.
+
+Per Opt-In kann der benutzer die gefahrenen Strecken aufzeichnen und anonymisiert zur verfügung stellen, sodass mit den daraus gewonnen Nutzerdaten die Routenfindung und Ankunftszeitvorhersage verbessert werden können.
+
+![iBis Logo]({{ site.baseurl }}/assets/images/ibis_logo_transparent_schatten.png)
