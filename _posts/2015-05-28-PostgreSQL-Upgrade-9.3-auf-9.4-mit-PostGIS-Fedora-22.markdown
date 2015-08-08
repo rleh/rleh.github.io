@@ -2,7 +2,8 @@
 layout: post
 title:  "PostgreSQL Upgrade 9.3 auf 9.4 mit PostGIS Fedora 22"
 date:   2015-05-28 23:30:00
-categories: linux postgresql ibis_server
+categories: Linux PostgreSQL iBis-Server
+description: PostgreSQL vollzieht einen Versionssprung von 9.3 zu 9.4 beim Update von Fedora auf Version 22, dabei bedarf es ein paar Tricks die PgSQL Datenbanken zu aktualisieren.
 ---
 
 Da hat man gerade mit zwei Installationen gute Erfahrungen beim *Fedora Linux* Upgrade von Version 21 auf 22  mittels [FedUp](https://fedoraproject.org/wiki/FedUp) gemacht, wird man in dritten Fall leider enttäuscht.

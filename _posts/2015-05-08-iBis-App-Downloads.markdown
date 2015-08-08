@@ -2,7 +2,8 @@
 layout: post
 title:  "iBis App Downloads"
 date:   2015-05-08 20:00:00
-categories: ibis app download
+categories: iBis App Download
+description: Download der iBis Fahrradnavigation Android App. Die App kann derzeit nur hier (selbstverständlich kostenfrei) heruntergeladen werden.
 ---
 ### Installationshinweise
 Um die App installieren zu können, muss in den Android-Einstellungen unter _Sicherheit_ -> _Unbekannte Quellen_ die Installation von _\*.apk_-Dateien zuerst erlaubt werden.

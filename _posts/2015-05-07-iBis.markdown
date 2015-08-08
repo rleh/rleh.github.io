@@ -2,7 +2,8 @@
 layout: post
 title:  "iBis"
 date:   2015-05-08 20:00:00
-categories: ibis
+categories: iBis
+description: Die iBis App ist eine im Rahmen von Jugend Forscht entstandene Android App zur Fahrradnavigation. Basierend auf OpenStreetMap Kartenmaterial und von den Nutzern beigesteuerten Daten können für Fahrradfahrer optimierte Routen (in NRW) berechnet werden.
 ---
 
 __iBis__ (intelligent bike information system) ist ein Fahrradnavi.

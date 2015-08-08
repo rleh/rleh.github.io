@@ -2,7 +2,8 @@
 layout: post
 title:  "Videos der Stufe 12"
 date:   2014-06-28 23:59:59
-categories: tfg abi download
+categories: Theodor-Fliedner-Gymnasium Abi Download
+description: Videos zum Stufenmusical und Abiball der Stufe 12 Abitur 2015 des Theodor Fliedner Gymnasiums (TFG) Düsseldorf
 ---
 
 ### Stufenmusical Video

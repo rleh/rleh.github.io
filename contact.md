@@ -2,6 +2,7 @@
 layout: page
 title: Kontakt
 permalink: /contact/
+description: Kontakt zu Raphael Lehmann in Aachen per E-Mail (gerne PGP verschlüsselt)
 ---
 #### Raphael Lehmann
 
