@@ -10,5 +10,4 @@ url: "https://www.rleh.de"
 github_username:  rleh
 
 # Build settings
-#markdown: kramdown
-markdown: redcarpet
+markdown: kramdown
