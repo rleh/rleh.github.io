@@ -7,6 +7,12 @@ author: Raphael Lehmann
 tags: [elektronik, saison19]
 ---
 
+Dieser Blogpost ist veröffentlicht auf dem [Blog des Roboterclub Aachen e.V.](http://www.roboterclub.rwth-aachen.de/blog/2018/micro-motor-debugging-inbetriebnahme.html).
+
+Im Rahmen des Roboterclubs hab ich mich an die Entwicklung eines miniaturisierter Motorcontroller gewagt, welche im folgenden beschrieben wird.
+
+---
+
 Die Idee zur Entwicklung des [µMotors]({% post_url 2018-05-05-micro-motor-motorcontroller %}) ist schon älter.
 Damals, als die Auswahl der Komponenten noch geschah, wurde im RCA fast zeitgleich auch der größere Bruder des µMotors, der Alpha-Motor, entworfen.
 
@@ -16,7 +22,7 @@ Beim Design der Leistungselektronik fiel die Wahl des MOSFET-Gatetreibers auf de
 Um die Eignung der ausgewählten Komponenten zu verifizieren wurde eine Testplatine entworfen, welche außerdem eine schöne und lehrreiche Aufgabe für zwei neue, bisher nicht mit dem Platinendesign vertrauten Mitgliedern des Roboterclubs darstellte.
 Die Testplatine enthielt neben den MOSFET-Treibern und MOSFETs selbst nur Stecker, Testpunkte, die nötige passive Beschaltung aus Widerständen und Kondensatoren sowie die Spannungsversorgung.
 
-![Testplatine für MIC4606](../../assets/images/2018/alpha-motor-testboard.jpg)
+![Testplatine für MIC4606](/assets/images/2018/alpha-motor-testboard.jpg)
 
 In Kombination mit einem Entwicklungs-Board für Microcontroller, in unserem Fall das [STM32F4Discovery], wurde die Ansteuerung von DC und BLDC Motoren erfolgreich getestet.
 
@@ -33,7 +39,7 @@ Es ist meist hilfreich mit einem Logic-Analyser oder Oszilloskop de SPI-Bus auf 
 Leider passten auf die Platine des Micro-Motors keine Testpunkte, manche der Leiterbahnen waren nicht einmal auf zugänglichen Außenlagen der Platine, sondern ausschließlich unter Chips und auf den Innenlagen geführt.
 Somit musste filigraner Fädeldraht an die kleinen Lötperlen an den Außenkanten der QFN/DFN-Pads des Chips anlöten werden um an diesem Fädeldraht dann die Signale mit Logic-Analyser und Oszilloskop ab zugreifen.
 
-![Makro-Aufnahme Micro-Motor Fädeldraht](../../assets/images/2018/micro-motor-faedeldraht.jpg)
+![Makro-Aufnahme Micro-Motor Fädeldraht](/assets/images/2018/micro-motor-faedeldraht.jpg)
 
 Dabei wurde das erste Problem recht schnell deutlich: Die MISO-Leitung des DRV8323 ist ungewöhlicherweise als [Open-Drain](https://de.wikipedia.org/wiki/Open-Collector-Ausgang) und nicht wie üblich als [Push-Pull-Stufe](https://de.wikipedia.org/wiki/Gegentaktendstufe) ausgeführt, infolgedessen wird ein externer Pull-Up-Widerstand benötigt.
 Um diesen Widerstand einzusparen sollte der intern zuschaltbare [Pull-Up Widerstand](https://de.wikipedia.org/wiki/Pull-up-Widerstand) im STM32 Microcontroller genutzt werden.
@@ -41,11 +47,11 @@ Leider ist der Widerstand dieses Pull-Ups (laut Datenblatt 30 Kiloohm bis 70 Kil
 Folglich musste neben dem Fädeldraht für die Messinstrumente noch ein 10 Kiloohm Pull-Up-Widerstand mit Fädeldraht nachgerüstet werden.
 Das Löten war schon fast zur Routine geworden, da sich der Fädeldraht in der Zwischenzeit mehrfach gelöst hatte.
 
-![Micro-Motor Testaufbau mit zwei Oszilloskopen und zwei Netzteilen](../../assets/images/2018/micro-motor-testaufbau.jpg)
+![Micro-Motor Testaufbau mit zwei Oszilloskopen und zwei Netzteilen](/assets/images/2018/micro-motor-testaufbau.jpg)
 
 In Endeffekt hat die vorhandene Hardware aber ihre Inbetriebnahme und die Software-Entwicklung unter Zusatzaufwand ermöglicht.
 
-![Makro-Aufnahme: Pad eines DFN/QFN-Chips](../../assets/images/2018/qfn-dfn-pad.jpg)
+![Makro-Aufnahme: Pad eines DFN/QFN-Chips](/assets/images/2018/qfn-dfn-pad.jpg)
 
 Bis letzte Woche ein merkwürdiges Verhalten der PWM-Waveform bei der Ansteuerung von BLDC-Motoren auftrat.
 Zum lokalisieren des Fehlers wurden neben den Signalen an den Motorphasen auch die Signale der Gates vor und nach dem Gatetreiber betrachtet.
@@ -58,7 +64,7 @@ Schnell war die Entscheidung getroffen um weitere Zerstörung zu verhindern nun 
 Da es für den verwendeten Microcontroller kein Entwicklungs-Board vom Hersteller gibt wurde dieser integriert, der Schaltplan ist daher fast identisch mit dem des Micro-Motors.
 Die Platinengröße wurde von einem Kreis mit Durchmesser von 20 mm auf ein Rechteck von 100 mm x 33 mm erweitert um Platz für die etwa 50 Testpunkte zu bieten.
 
-![Macro-Motor Testplatine](../../assets/images/2018/macro-motor-pcb.png)
+![Macro-Motor Testplatine](/assets/images/2018/macro-motor-pcb.png)
 
 Der Name ist entsprechend auch nicht weit von Micro-Motor entfernt gewählt: *Macro-Motor*.
 
