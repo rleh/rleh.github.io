@@ -1,8 +1,8 @@
 ---
 layout: post
 title: µMotor
-feature-img: "assets/img/blog/micro-motor/umotor-pcb.jpg"
-thumbnail: "assets/img/blog/micro-motor/umotor-pcb.jpg"
+feature-img: "assets/images/micro-motor/umotor-pcb.jpg"
+thumbnail: "assets/images/micro-motor/umotor-pcb.jpg"
 tags: [elektronik, informatik, saison19]
 author: Raphael Lehmann
 excerpt: "Die Idee ist schon älter, aber nun haben wir uns an die Umsetzung gewagt:  \
@@ -37,7 +37,7 @@ Die Anforderungen haben wir in den letzten Jahren gesammelt:
 
 ## Komponentenauswahl
 
-![Er ist uns beim Waschen leider etwas eingegangen. Funktioniert aber trotzdem noch.](/assets/img/blog/micro-motor/umotor-pcb.jpg)
+![Er ist uns beim Waschen leider etwas eingegangen. Funktioniert aber trotzdem noch.](/assets/images/micro-motor/umotor-pcb.jpg)
 
 Als nächsten Schritt mussten wir die Komponenten auswählen.
 Die Wahl des Mikrocontrollers fiel schnell und wenig überraschen auf einen STM32, konkret einen [STM32L433CCU](http://www.st.com/en/microcontrollers/stm32l433cc.html) im 7x7mm²-UFQFPN48 Gehäuse.
@@ -70,8 +70,8 @@ welche aufgrund der kleinen Bauform ausgewählt wurden.
 
 ## Schaltplan und Layout
 
-![Schaltplanübersicht micro-motor (µMotor) in KiCad](/assets/img/blog/micro-motor/schematic-overview-screenshot.jpg)
-![PCB Layout micro-motor (µMotor) in KiCad](/assets/img/blog/micro-motor/pcb-layout-screenshot.jpg)
+![Schaltplanübersicht micro-motor (µMotor) in KiCad](/assets/images/micro-motor/schematic-overview-screenshot.jpg)
+![PCB Layout micro-motor (µMotor) in KiCad](/assets/images/micro-motor/pcb-layout-screenshot.jpg)
 
 Aus den Anforderungen und Überlegungen sind in den vergangenen Monaten Schaltpläne und ein kompaktes Platinenlayout entstanden.
 Das Platinenlayout ist 4-lagig ausgeführt, anders wäre die geforderte Bauform nicht umsetzbar gewesen.
@@ -82,8 +82,8 @@ Der erste Aufbau mit Reflow-Ofen und die Inbetriebnahme gestalten sich als nicht
 weil es auf der winzigen Platine kaum möglich ist elektrische oder Software- Probleme mit Multimeter, Oszilloskop oder Logicanalyser zu debuggen.
 Einige Leitungen sind nur unter Bauteilen und auf den inneren Lagen geführt.
 
-![micro-motor (µMotor) vor dem Reflow-Löten. Ein-Cent-Münze zum Größenvergleich.](/assets/img/blog/micro-motor/pcb-assembled-before-reflow-onecent.jpg)
-![micro-motor (µMotor) im Reflow Ofen](/assets/img/blog/micro-motor/reflow-ofen.jpg)
+![micro-motor (µMotor) vor dem Reflow-Löten. Ein-Cent-Münze zum Größenvergleich.](/assets/images/micro-motor/pcb-assembled-before-reflow-onecent.jpg)
+![micro-motor (µMotor) im Reflow Ofen](/assets/images/micro-motor/reflow-ofen.jpg)
 
 Der erste und einzige aufgebaute Prototyp funktioniert weitgehend.
 der bisher einzige Hardwarefehler konnte mit Hilfe von Fädeldraht und einem zusätzlichen Widerstand behoben werden.
@@ -102,7 +102,7 @@ welche den Aktor parametrierbar initialisieren und verfahren können, das Interf
 Programiert werden muss der Micro-Motor über den 3D-gedruckten Programieradapter mit Federkontaktstiften.
 Der Adapter verfügt außerdem über eine Pin zum abgreifen der UART-Ausgabe zu Debug-Zwecken.
 
-![Programieradapter für den micro-motor (µMotor)](/assets/img/blog/micro-motor/swd-adapter.jpg)
+![Programieradapter für den micro-motor (µMotor)](/assets/images/micro-motor/swd-adapter.jpg)
 
 ## Ausblick
 
