@@ -8,6 +8,7 @@ baseurl: ""
 url: "https://www.rleh.de"
 
 github_username:  rleh
+twitter_username: rleh_de
 
 # Build settings
 markdown: kramdown

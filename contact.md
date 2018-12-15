@@ -6,8 +6,6 @@ description: Kontakt zu Raphael Lehmann in Aachen per E-Mail (gerne PGP verschl�
 ---
 #### Raphael Lehmann
 
-#### 52074 Aachen
-
 #### [{{ site.email }}](mailto:{{ site.email }})
 
 E-Mail an mich können gerne mit [meinem PGP Schlüssel]({{ site.baseurl }}/assets/8BD634D6.asc) verschlüsselt gesendet werden.
