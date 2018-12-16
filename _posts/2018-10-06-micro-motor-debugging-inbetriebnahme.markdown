@@ -1,17 +1,15 @@
 ---
 layout: post
 title: "µMotor: Inbetriebnahme und Debugging"
-feature-img: "assets/images/micro-motor/umotor-pcb.jpg"
-thumbnail: "assets/images/micro-motor/umotor-pcb.jpg"
 author: Raphael Lehmann
-tags: [elektronik, saison19]
+excerpt: "Eine Niederschrift des Vorgehens, der Probleme und der Erkenntnisse bei Aufbau des ersten Prototypen des miniaturisierter Motorcontroller µMotor."
 ---
 
 Dieser Blogpost ist veröffentlicht auf dem [Blog des Roboterclub Aachen e.V.](http://www.roboterclub.rwth-aachen.de/blog/2018/micro-motor-debugging-inbetriebnahme.html).
 
 Im Rahmen des Roboterclubs hab ich mich an die Entwicklung eines miniaturisierter Motorcontroller gewagt, welche im folgenden beschrieben wird.
 
----
+
 
 Die Idee zur Entwicklung des [µMotors]({% post_url 2018-05-05-micro-motor-motorcontroller %}) ist schon älter.
 Damals, als die Auswahl der Komponenten noch geschah, wurde im RCA fast zeitgleich auch der größere Bruder des µMotors, der Alpha-Motor, entworfen.

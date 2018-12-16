@@ -1,15 +1,12 @@
 ---
 layout: post
 title: µMotor
-feature-img: "assets/images/micro-motor/umotor-pcb.jpg"
-thumbnail: "assets/images/micro-motor/umotor-pcb.jpg"
-tags: [elektronik, informatik, saison19]
 author: Raphael Lehmann
 excerpt: "Die Idee ist schon älter, aber nun haben wir uns an die Umsetzung gewagt:  \
 Ein miniaturisierter Motorcontroller, welche dezentral direkt an jeden Motor verbaut wird..."
 ---
 
-Dieser Blogpost ist veröffentlicht auf dem [Blog des Roboterclub Aachen e.V.](http://www.roboterclub.rwth-aachen.de/blog/2018/micro-motor-debugging-inbetriebnahme.html).
+Dieser Blogpost ist veröffentlicht auf dem [Blog des Roboterclub Aachen e.V.](http://www.roboterclub.rwth-aachen.de/blog/2018/micro-motor-motorcontroller.html).
 
 Im Rahmen des Roboterclubs hab ich mich an die Entwicklung eines miniaturisierter Motorcontroller gewagt, welche im folgenden beschrieben wird.
 
